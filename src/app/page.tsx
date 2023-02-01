@@ -7,6 +7,10 @@ const inter = Inter({ subsets: ['latin'] })
 export default function Home() {
   return (
     <main className={styles.main}>
+      <h1 className="text-3xl font-bold underline">
+        This element was made with Tailwind CSS!
+      </h1>
+
       <div className={styles.description}>
         <p>
           Get started by editing&nbsp;
